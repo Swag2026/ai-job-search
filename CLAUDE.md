@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Tarique Mahmood
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Tarique Mahmood, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,79 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Tarique Mahmood
+- **Location:** Jeddah, Saudi Arabia (Indian National, open to relocation — actively targeting Dubai, UAE)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | Hindi | Native |
+  | Urdu | Fluent |
+  | English | Professional |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English <!-- English unless your market expects otherwise; /setup asks -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed (ERP & Operations Specialist, Swag Trading Company) — open to new opportunities
+- **LinkedIn headline:** "Inventory Control & Warehouse Systems Specialist"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.Tech in Computer Science & Engineering** (Graduated 2024) - Sri Satya Sai College of Engineering, India
+  - Topics: Data Structures, Algorithms, DBMS, Computer Networks, Web Technologies, Software Engineering
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **ERP & Operations Specialist (Inventory & Warehouse Systems)** (May 2025 - Present) - **Swag Trading Company** (Jeddah, Saudi Arabia)
+  - Own inventory accuracy inside Odoo ERP across Sales, Purchase & Inventory — 50+ daily stock transactions at 99% accuracy with zero discrepancies
+  - Built and maintain a real-time inventory/asset dashboard tracking 500+ SKUs, with transfer requests and QR-based asset tracking
+  - Supervising the company's RFID rollout for apparel stock, bridging it into the new ERP's stock workflows
+- **IT Network Specialist** (Jul 2022 - Jul 2024) - **Mazuna Tech Private Ltd.** (India)
+  - Deployed network infrastructure for 20+ users at 99.5% uptime
+  - Built Python automation scripts, cutting manual effort by 60%
+  - Administered MySQL databases — CRUD, query optimization, backup & recovery
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Odoo ERP (Sales/Purchase/Inventory/Accounting), Python automation, FastAPI, PostgreSQL, React
+- **Secondary:** Power BI, SQL, Advanced Excel, POS systems, SAP (learning)
+- **Domain:** Inventory & stock control, warehouse operations, RFID/barcode/QR asset tracking, delivery route planning
+- **Software:** Odoo, Power BI, PostgreSQL, Tailwind CSS, RFID handheld readers
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **IT Network Specialist**
+- **Web Development Fundamentals**
+- **E-Commerce Operations**
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None listed.
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- [not yet assessed — run `/setup --section behavioral` to add this]
+- **Thrives in:** Building and owning full systems end-to-end (ERP integrations, dashboards, automation), solving real operational problems with code
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building and owning systems end-to-end rather than maintaining someone else's
+- Solving real operational/warehouse problems with code (ERP integrations, automation, dashboards)
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Retail / multi-branch retail groups (Dubai/UAE): inventory, warehouse & ERP systems roles
+- ERP/Odoo consultancies and implementers (Dubai/UAE): Odoo development/ERP ops roles
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- [not yet specified — run `/setup --section goals` to add deal-breakers and salary expectations]
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

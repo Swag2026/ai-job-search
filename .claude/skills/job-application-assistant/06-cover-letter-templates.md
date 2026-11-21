@@ -76,7 +76,8 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     TITLE NAME
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{}{\Huge{[YOUR_NAME]}}{  \href{mailto:[YOUR_EMAIL]}{[YOUR_EMAIL]} | [YOUR_PHONE] |  \urlstyle{same}\href{[YOUR_LINKEDIN_URL]}{LinkedIn}
+% TODO: add your LinkedIn URL and restore the " | \urlstyle{same}\href{[YOUR_LINKEDIN_URL]}{LinkedIn}" segment below
+\namesection{}{\Huge{Tarique Mahmood}}{  \href{mailto:tarique1431@gmail.com}{tarique1431@gmail.com} | +91-9123297576
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -108,7 +109,7 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 % doubled break triggers "! LaTeX Error: There's no line here to end."
 \closing{Kind regards,}
 
-\signature{[YOUR_NAME]}
+\signature{Tarique Mahmood}
 \end{flushright}
 \end{document}
 ```

@@ -12,30 +12,49 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
+<!-- Extracted as stubs from the CV only - fill in real Situation/Task/Action/Result detail
+before using these in an interview. Source: CV bullets, not a full interview conversation. -->
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### Zero-discrepancy inventory accuracy at scale
+**Source:** CV - Swag Trading Company, ERP & Operations Specialist
+**What happened:** Owns inventory accuracy inside Odoo ERP across Sales, Purchase & Inventory — 50+ daily stock transactions at 99% accuracy with zero discrepancies across branches.
+**Why it matters:** Ownership/accountability questions, process rigor, attention to detail, scaling operations
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Building the inventory/asset dashboard in-house
+**Source:** CV - SWAG Inventory Control Center project
+**What happened:** Built and maintains a real-time inventory/asset dashboard tracking 500+ SKUs across branches, with transfer requests and QR-based asset tracking, rebuilt in React + Tailwind.
+**Why it matters:** "Tell me about a project you built end-to-end", initiative, going beyond the job description
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### RFID rollout supervision
+**Source:** CV - RFID Stock Tracking Rollout
+**What happened:** Supervising the company's RFID initiative — handheld reader tag counting feeding into the new ERP, across 500+ SKUs.
+**Why it matters:** Leading a cross-functional/new-technology rollout, stakeholder coordination
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Automating e-commerce ↔ ERP stock sync
+**Source:** CV - Automated Daily Stock & Sales Report / e-commerce sync automation
+**What happened:** Automated e-commerce ↔ ERP stock sync (Salla, Zid) with Python, saving 10+ hrs/week; also built a scheduled 6am Odoo sales & purchase report auto-delivered via Slack/SMS.
+**Why it matters:** "Tell me about a time you improved a process" / automation and efficiency questions
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

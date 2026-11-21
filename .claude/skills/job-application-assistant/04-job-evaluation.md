@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Odoo ERP (Sales/Purchase/Inventory/Accounting), inventory & warehouse systems, RFID/barcode/QR asset tracking, Python automation, FastAPI, PostgreSQL, React
+**Moderate match areas:** Power BI, SQL, Advanced Excel, POS systems, SAP (learning), delivery/logistics route planning
+**Weak match areas:** Deep ML/data science, large-scale distributed systems, roles with no ERP/inventory/ops component at all
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Inventory & warehouse systems, ERP operations (Odoo), warehouse/retail ops tooling (full-stack: FastAPI/React/PostgreSQL built in-house)
+**Moderate:** IT/network infrastructure, general software development, data reporting/BI
+**Entry-level:** Pure software engineering roles with no operations/ERP/inventory context
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,9 +91,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Based in Dubai / UAE: **PASS** — this is the current primary relocation target
+- Based in Jeddah or elsewhere in Saudi Arabia: PASS (current base)
+- Remote with occasional office, anywhere: PASS
+- Requires relocation to a country other than UAE (or Saudi Arabia): FLAG (discuss with user — open to relocation generally, but Dubai/UAE is the active search focus)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +108,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Move from Jeddah to a Dubai/UAE-based role in inventory, warehouse systems, ERP operations, or full-stack development
+- Continue building/owning systems end-to-end (ERP integrations, dashboards, automation) rather than pure data-entry inventory work
+- Grow into a more senior ERP/operations-systems or full-stack developer position with broader ownership
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building and owning full systems (dashboards, portals, automation), solving real operational problems with code, Odoo/ERP integration work
+- Tasks that drain: [not yet specified — ask if relevant]
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: [not yet specified]
+- **Flexibility**: [not yet specified]
+- **Professional development**: Wants to keep growing technical/ERP-systems ownership, not just maintain existing systems
 
 ### 6. Salary Benchmark (Optional)
 

@@ -13,10 +13,13 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by the community `linkedin-search` CLI once installed
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **bayt.com** - largest general job board in the Gulf/UAE market
+- **linkedin.com/jobs** - LinkedIn job listings (filter: UAE / Dubai); also covered by the community `linkedin-search` CLI once installed
+- **gulftalent.com** - niche/industry board for Gulf region roles (optional)
+- **naukrigulf.com** - another major board for the UAE/Gulf market (optional)
+
+<!-- No portal CLI installed yet for these boards - /scrape currently falls back to WebSearch.
+Install one via /add-portal or by copying a matching folder from community-portals if one exists. -->
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -29,91 +32,93 @@ Each priority has two kinds of block. **Plain terms** blocks are what the portal
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Inventory & Warehouse Systems
 
 These match your strongest and most desired career direction.
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_PRIMARY_JOB_TITLE_1]
-[YOUR_PRIMARY_JOB_TITLE_2]
-[YOUR_KEY_SKILL]
+Inventory Control Specialist
+Warehouse Systems Specialist
+ERP Operations Specialist
+Odoo Inventory
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:bayt.com "Inventory Control Specialist" Dubai
+site:bayt.com "Warehouse Systems Specialist" Dubai
+site:bayt.com "Odoo" Dubai
+site:linkedin.com/jobs "Inventory Control Specialist" UAE
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: ERP / Odoo Development
 
-These match your domain expertise.
+These match your domain expertise building ERP-integrated systems.
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_DOMAIN_KEYWORD_1]
-[YOUR_DOMAIN_KEYWORD_2]
+Odoo Developer
+ERP Developer
+FastAPI Developer
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:bayt.com Odoo Developer Dubai OR "Abu Dhabi"
+site:gulftalent.com Odoo ERP UAE
+site:linkedin.com/jobs Odoo Developer Dubai UAE
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 3: Full Stack Developer (ops/ERP-adjacent)
 
-Adjacent roles you could pivot into.
+Adjacent roles you could pivot into, given your in-house full-stack build-out (FastAPI, React, PostgreSQL).
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_ADJACENT_TITLE_1]
-[YOUR_ADJACENT_TITLE_2]
+Full Stack Developer
+Python Developer
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:bayt.com "Full Stack Developer" FastAPI Dubai
+site:bayt.com "Python Developer" Dubai
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 4: Broader Technical / Operations Consulting
 
-Wider net for general technical roles.
+Wider net for general technical and ops-systems roles.
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_KEY_SKILL] developer
-technical consultant
+Python developer
+operations systems consultant
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:bayt.com Python developer Dubai
+site:linkedin.com/jobs "Python developer" Dubai
+site:bayt.com "operations systems" consultant Dubai
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location matches the relocation target. Define acceptable areas:
+- Dubai and surrounding areas (primary target)
+- Abu Dhabi, UAE (acceptable)
+- Other UAE emirates (acceptable)
+- Other Gulf countries (borderline - discuss with user before applying)
+- Outside the Gulf region (too far, unless role is fully remote)
 
 ## Language Filter
 
